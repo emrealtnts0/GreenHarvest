@@ -1,0 +1,13 @@
+:root {
+  --text: #141414;
+  --background: #576f35;
+  --background-2: #7a3145;
+  --main-text: #fbfbfb;
+  --font-family: "Inter Tight", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
