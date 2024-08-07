@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
+}
+
+body {
+  background-color: #7a3145; /* Background color */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.order-section {
+  background-color: #7a3145;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.order-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.order-section h2 span {
+  color: #a88094;
+}
+
+.order-section p {
+  font-size: 1.2em;
+  color: #a88094;
+  margin-bottom: 40px;
+}
+
+.order-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.order-form form {
+  flex: 1;
+  min-width: 300px;
+  background-color: #fff;
+  color: #7a3145;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.order-form form h3 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #141414;
+}
+
+.order-form form h3 span {
+  color: #7a3145;
+}
+
+.order-form form input,
+.order-form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #7a3145;
+  border-radius: 5px;
+}
+
+.order-form form button {
+  background-color: #576f35;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.image-and-social {
+  flex: 1;
+  min-width: 300px;
+  background-color: #576f35;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.image-area {
+  margin-bottom: 20px;
+  opacity: 0.8; /* Görseli soluklaştırır */
+  width: 427px; /* Görselin genişliği */
+  height: 273px; /* Görselin yüksekliği */
+}
+
+.image-area img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.social-media {
+  color: #fff;
+}
+
+.social-title span {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 111%;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.social-links span {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+}
