@@ -1,0 +1,35 @@
+#advertisement {
+    display: center;
+    align-items: row;
+    justify-content: row;
+    flex-direction: row ;
+    gap: 10px;
+    background: #fbfbfb;
+ }
+  .advertisement-container { 
+   max-width: 1280px;
+   left: 13px;
+   padding: 100px 0px 0px 0px;
+   gap: 10px;
+   opacity: 0px;
+   padding: 100px;
+
+  }
+.advertisement-span {
+    display: inline-flex;
+    font-family: "Inter Tight", sans-serif;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    border-radius: 12px;
+    background: #576f35; 
+      }
+
+.advertisement-p {
+font-family: Inter Tight;
+font-size: 76px;
+font-weight: 600;
+line-height: 80px;
+letter-spacing: -0.015em;
+text-align: left;
+text-transform: uppercase;
+  }

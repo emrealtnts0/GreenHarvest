@@ -1,0 +1,86 @@
+
+  .vegetables-container {
+      display: flex;
+      flex-direction: column;
+      background-color: #7A3145;
+      align-items: center;
+      padding: 100px;
+      gap: 50px;
+  
+  }
+  .vegetables-div {
+      display: flex;
+      flex-direction: column;
+      align-self: baseline;
+      gap: 25px;
+      width: Hug (626px)px;
+      height: Hug (193px)px;
+      opacity: 0px;
+  
+  }
+  .vegetables-title {
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #fbfbfb;
+      max-width: 508px;
+      font-family: Inter Tight;
+      font-size: 64px;
+      font-weight: 600;
+      line-height: 64px;
+      letter-spacing: -0.015em;
+      text-align: left;
+  }
+  .vegetables-span {
+      opacity: 0.3;
+  
+  }
+  .vegetables-text {
+    font-family: Inter Tight;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    height: 40px;
+    font-weight: 500;
+    color: #fbfbfb;
+    max-width: 626px;
+  
+  }
+  .vegetables-cards-ul{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 21px;
+      max-width: 1080px;
+      transition: all 0.3s ease-in-out;
+     
+  }
+  .vegetables-cards-li {
+     
+      background-color: #fbfbfb;
+      border-radius: 40px;
+      padding: 32px;
+      transition: all 1s ease-in-out;
+      text-decoration: none;
+      list-style-type: none;
+  }
+  
+  .vegetables-cards-div {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      
+  }
+  .vegetable-item {
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 2rem;
+      color: #7a3145;
+      text-decoration: none;
+  }
+  .vegetable-price {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: #141414;
+      text-decoration: none;
+  }
