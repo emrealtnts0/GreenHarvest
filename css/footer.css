@@ -80,17 +80,266 @@
     font-weight: 600;
 }
 
-.footer-sub-info {
+
+
+.sub-info-list {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin-right: 100px;
     margin-left: 100px;
 }
 
-.sub-info-text {
+.sub-info-list-item {
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+.sub-info-link {
     color: rgba(251, 251, 251, 0.5);
     margin-bottom: 50px;
     font-family: var(--font-family);
     font-size: 18px;
 }
 
+.dash {
+    color: rgba(251, 251, 251, 0.5);
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 18px;
+    font-family: var(--font-family);
+}
+
+/* FOOTER RESPONSIVE CSS */
+
+/* MOBILE 375px */
+
+@media screen and (max-width: 375px) {
+
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .svg-class {
+        margin-right: 4px;
+    }
+
+    .footer-logo {
+        font-size: 16px;
+        line-height: 18px;
+        width: 194px;
+        height: 18px;
+        margin-bottom: 16px;
+    }
+
+    .footer-link {
+        font-size: 28px;
+        line-height: 28px;
+        gap: 14px;
+        margin-bottom: 40px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 40px;
+    }
+
+    .footer-logo-column {
+        margin-top: 40px;
+        width: 265px;
+        margin-right: 0px;
+    }
+
+    .options-column {
+        margin-bottom: 40px;
+    }
+
+    .footer-contacts {
+        margin-top: 40px;
+    }
+
+    .address-link {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .sub-info-list-item {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 14px;
+        margin-top: 80px;
+    }
+    
+    .sub-info-link {
+        font-size: 12px;
+        line-height: 18px;
+        
+    }
+
+    .dash {
+        font-size: 14px;
+    }
+
+    .sub-info-list {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+}
+
+/* TABLET 768px */
+
+@media (min-width: 376px) and (max-width: 768px) {
+
+    .footer-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    .svg-class {
+        margin-right: 8px;
+    }
+    
+    .tablet-right {
+        display: flex;
+        flex-direction: column;
+        margin-right: 32px;
+        gap: 64px;
+    }
+
+    .footer-logo {
+        font-size: 16px;
+        line-height: 18px;
+        width: 194px;
+        height: 18px;
+        margin-bottom: 25px;
+    }
+
+    .footer-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer-logo-column {
+        margin-top: 32px;
+        width: 265px;
+        margin-right: 0px;
+    }
+
+    .options-column {
+        margin-bottom: 0;
+    }
+
+    .address-link {
+        font-size: 18px;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footer-contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 0;
+    }   
+
+    .sub-info-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 32px;
+        margin-left: 32px;
+    }
+
+    .sub-info-list-item {
+        list-style-type: none;
+        margin-bottom: 32px;
+        margin-top: 100px;
+    }
+
+    .sub-info-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+/*DESKTOP 1280px */
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+
+    .footer-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+     
+    }
+
+    .tablet-right {
+        display: flex;
+        flex-direction: row;
+        gap: 121px;
+    }
+
+}
+
+/* FOR BIGGER SCREENS */
+
+@media screen and (min-width: 1281px) {
+    .footer-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .tablet-right {
+        display: flex;
+        flex-direction: row;
+        gap: 121px;
+    }
+
+    .sub-info-list-item {
+        list-style-type: none;
+        margin-bottom: 32px;
+        margin-top: 100px;
+    }
+
+    .sub-info-link {
+        font-size: 18px;
+        line-height: 20px; 
+    }
+    
+    .dash {
+        font-size: 18px;
+    }
+
+    .address-link {
+        font-size: 18px;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footer-link {
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
